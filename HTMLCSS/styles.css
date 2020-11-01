@@ -1,0 +1,62 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+    color: white;
+    height: 100vh;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+
+.greeting {
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rule{
+    width: 40%;
+}
+
+.hobby {
+    letter-spacing: 3px;
+
+}
+.nav-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgb(11, 83, 83);
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+
+}
+
+.navigation a:hover {
+    background-color: rgb(22, 122, 122);
+}
